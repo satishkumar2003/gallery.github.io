@@ -17,7 +17,7 @@ html,body {
     position: relative;
     height: 100%;
     width: 100%;
-    background-image: url("../windmill.png");
+    background-image: url("windmill.png");
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
