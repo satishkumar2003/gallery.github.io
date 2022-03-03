@@ -154,7 +154,7 @@ html,body {
 
 /* Responsiveness */
 
-@media (max-width:950px) {
+@media (max-width:850px) {
   .gallery-home>h1 {
     font-size: 2.5em;
   }
@@ -165,23 +165,29 @@ html,body {
     grid-template-areas: "one one two"
                          "one one two"
                          "three four four";
-    gap: 10px;  
+    gap: 12px;  
   }
   #image-5,#image-10 {
     display:none;
   }
 }
 
+@media (max-width:760px) {
+  .event {
+    grid-template-columns: repeat(3,27vw);
+    grid-template-rows: repeat(3,27vw);
+  }
+}
 
-@media (max-width:800px) {
+@media (max-width:450px) {
   .event {
     padding: 15px;
-    grid-template-columns: 10em 10em;
-    grid-template-rows: 10em 10em 10em;
+    grid-template-columns: 35vw 35vw;
+    grid-template-rows: 35vw 35vw 35vw;
     grid-template-areas: "one two"
                          "three two"
                          "four four";
-    gap: 10px;
+    gap: 15px;
   }
 
   #image-5,#image-10 {
@@ -190,20 +196,8 @@ html,body {
 
   .caption {
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 0.7em;
     transition: opacity 150ms ease-in-out;
     font-weight: 200;
-  }
-}
-
-@media (max-width: 400px) {
-  .event {
-    padding: 10px;
-    grid-template-columns: 7em 7em;
-    grid-template-rows: 7em 7em 7em;
-  }
-
-  .caption {
-    font-size: 0.7em;
   }
 }
