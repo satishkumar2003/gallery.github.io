@@ -160,8 +160,8 @@ html,body {
   }
 
   .event {
-    grid-template-columns: repeat(3,13em);
-    grid-template-rows: repeat(3,13em);
+    grid-template-columns: repeat(3,27vw);
+    grid-template-rows: repeat(3,27vw);
     grid-template-areas: "one one two"
                          "one one two"
                          "three four four";
@@ -169,13 +169,6 @@ html,body {
   }
   #image-5,#image-10 {
     display:none;
-  }
-}
-
-@media (max-width:760px) {
-  .event {
-    grid-template-columns: repeat(3,27vw);
-    grid-template-rows: repeat(3,27vw);
   }
 }
 
