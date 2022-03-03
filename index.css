@@ -56,20 +56,20 @@ html,body {
 }
 
 .event {
-  max-width: 1150px;
+  max-width: 93.75vw;
   background-color:rgb(119, 119, 119);
   border-radius: 15px;
   padding: 20px;
   margin-inline: auto;
   margin-bottom:20px;
   display: grid;
-  grid-template-columns: repeat(3,15em);
-  grid-template-rows: repeat(3,15em);
+  grid-template-columns: repeat(3,28vw);
+  grid-template-rows: repeat(3,28vw);
   grid-template-areas: "one one two"
                        "three four two"
                        "three five five";
   justify-content: center;
-  gap: 15px;
+  gap: 12px;
 }
 
 .event>.image{
@@ -165,7 +165,7 @@ html,body {
     grid-template-areas: "one one two"
                          "one one two"
                          "three four four";
-    gap: 12px;  
+    gap: 7px;  
   }
   #image-5,#image-10 {
     display:none;
@@ -180,7 +180,7 @@ html,body {
     grid-template-areas: "one two"
                          "three two"
                          "four four";
-    gap: 15px;
+    gap: 5px;
   }
 
   #image-5,#image-10 {
