@@ -60,14 +60,14 @@ html,body {
 .photos {
   padding: 20px;
   width: 100%;
-  background-color: #fcfb04;
+  background-color: #ffe548;
 }
 
 .event {
   max-width: 93.75vw;
-  background-color:#fbad3c;
   border-radius: 15px;
   padding: 20px;
+  background-color:#ffb20f;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-inline: auto;
@@ -206,7 +206,7 @@ html,body {
     grid-template-areas: "one one two"
                          "one one two"
                          "three four four";
-    gap: 7px;  
+    gap: 9px;  
   }
   #image-5,#image-10 {
     display:none;
@@ -221,7 +221,7 @@ html,body {
     grid-template-areas: "one two"
                          "three two"
                          "four four";
-    gap: 5px;
+    gap: 7px;
   }
 
   #image-5,#image-10 {
