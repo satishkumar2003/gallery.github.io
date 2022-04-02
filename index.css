@@ -44,7 +44,7 @@ html,body {
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
-  background-color: #fcd404;
+  background-color: #fc7168;
   padding: 2em;
 }
 
@@ -60,14 +60,14 @@ html,body {
 .photos {
   padding: 20px;
   width: 100%;
-  background-color: #ffe548;
+  background-color:#fc7168;
 }
 
 .event {
   max-width: 93.75vw;
   border-radius: 15px;
   padding: 20px;
-  background-color:#ffb20f;
+  background-color: #7c0a02;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-inline: auto;
